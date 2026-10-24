@@ -847,6 +847,14 @@ config DRM_PANEL_SAMSUNG_S6E3HA2
 	depends on BACKLIGHT_CLASS_DEVICE
 	select VIDEOMODE_HELPERS
 
+
+config DRM_PANEL_SAMSUNG_S6E3HA2_TABS2
+        tristate "Samsung S6E3HA2 tabs2 DSI video mode panel"
+        depends on OF
+        depends on DRM_MIPI_DSI
+        depends on BACKLIGHT_CLASS_DEVICE
+        select VIDEOMODE_HELPERS
+
 config DRM_PANEL_SAMSUNG_S6E3HA8
 	tristate "Samsung S6E3HA8 DSI video mode panel"
 	depends on OF
