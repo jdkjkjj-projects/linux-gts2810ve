@@ -1,5 +1,4 @@
-// SPDX-License-Identifier: BSD-3-Clause
-// THIS HAS NOT BEEN CLEANED UP AAAAAAHHHHH. WIP.
+// SPDX-License-Identifier: BSD-3-Clause
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
